@@ -35,4 +35,20 @@ public class LoginPageObjects {
 	public void getLoginBtnClick() {
 		loginBTn.click();
 	}
+	
+	@FindBy(how=How.XPATH, using="//input[@id='user-name']")
+	private WebElement usernameClear;
+	
+	public void clearusernameTextbox() {
+		usernameClear.clear();
+	}
+	
+	
+	@FindBy(how=How.XPATH, using="//input[@id='password']")
+	private WebElement passwordclear;
+	
+	public void cleargetpasswordTextbox() {
+		passwordclear.clear();
+	}
+	
 }

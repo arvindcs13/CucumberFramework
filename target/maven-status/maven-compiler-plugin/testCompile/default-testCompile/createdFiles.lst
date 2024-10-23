@@ -1,2 +1,3 @@
 seleniumTests\FirstTest.class
 runners\CucumberRunner.class
+seleniumTests\AppHooks.class

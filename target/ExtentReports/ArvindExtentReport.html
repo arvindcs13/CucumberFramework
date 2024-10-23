@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">ArvindExtentReport</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Oct 09, 2024 08:20:13</span></a>
+<a href="#"><span class="badge badge-primary">Oct 23, 2024 08:04:44</span></a>
 </li>
 </ul>
 </div>
@@ -71,19 +71,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Oct 09, 2024 08:20:13</h3>
+<h3>Oct 23, 2024 08:04:44</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Oct 09, 2024 08:20:24</h3>
+<h3>Oct 23, 2024 08:05:35</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -106,7 +106,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>1</b> features passed
+<b>3</b> features passed
 </small>
 </div>
 <div>
@@ -128,7 +128,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>4</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -148,7 +148,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>3</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>16</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Sauce Demo Test":9.696
+"Login Action":26.924,"Sauce Demo Test":7.349,"I am testing on home page of Sauce Demo":15.288
 };
 </script>
 <div class="row">
@@ -212,18 +212,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
+passParent: 3,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
+passChild: 4,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 3,
+passGrandChild: 16,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -265,9 +265,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Sauce Demo Test</p>
+            <p class="name">Login Action</p>
             <p class="text-sm">
-              <span>8:20:14 AM</span> / <span>00:00:09:696</span>
+              <span>8:04:45 AM</span> / <span>00:00:26:924</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -275,10 +275,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Sauce Demo Test</h5>
-<span class='badge badge-success'>10.09.2024 8:20:14 AM</span>
-<span class='badge badge-danger'>10.09.2024 8:20:24 AM</span>
-<span class='badge badge-default'>00:00:09:696</span>
+<h5 class="test-status text-pass">Login Action</h5>
+<span class='badge badge-success'>10.23.2024 8:04:45 AM</span>
+<span class='badge badge-danger'>10.23.2024 8:05:12 AM</span>
+<span class='badge badge-default'>00:00:26:924</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -290,7 +290,65 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Login Check</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Successful Login with Valid Credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="seleniumTests.DataTablesListStepDefinations.user_is_on_home_page()">
+                <span>Given User is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.DataTablesListStepDefinations.user_enters_credentials_to_log_in(io.cucumber.datatable.DataTable)">
+                <span>And User enters Credentials to LogIn</span>
+      <div><table class='markup-table table '><tr><td>UserName</td><td>Password</td></tr><tr><td>standard_user</td><td>secret_sauce</td></tr><tr><td>locked_out_user</td><td>secret_sauce</td></tr><tr><td>problem_user</td><td>secret_sauce</td></tr><tr><td>performance_glitch_user</td><td>secret_sauce</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.DataTablesListStepDefinations.message_displayed_login_successfully()">
+                <span>Then Message displayed Login Successfully</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sauce Demo Test</p>
+            <p class="text-sm">
+              <span>8:05:12 AM</span> / <span>00:00:07:349</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Sauce Demo Test</h5>
+<span class='badge badge-success'>10.23.2024 8:05:12 AM</span>
+<span class='badge badge-danger'>10.23.2024 8:05:20 AM</span>
+<span class='badge badge-default'>00:00:07:349</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Login Check</div>
       </div>
     </div>
         <div class="collapse">
@@ -307,6 +365,108 @@ eventsCount: 5,
               </div>
               <div class="step pass-bg" title="seleniumTests.FirstTest.user_should_be_able_to_login()">
                 <span>Then User should be able to login</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">I am testing on home page of Sauce Demo</p>
+            <p class="text-sm">
+              <span>8:05:20 AM</span> / <span>00:00:15:288</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">I am testing on home page of Sauce Demo</h5>
+<span class='badge badge-success'>10.23.2024 8:05:20 AM</span>
+<span class='badge badge-danger'>10.23.2024 8:05:35 AM</span>
+<span class='badge badge-default'>00:00:15:288</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="22"><span class="badge log pass-bg mr-2">Pass</span>Verfying the logo on home page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="seleniumTests.FirstTest.user_launches_saucedemo_webpage()">
+                <span>Given User launches Saucedemo webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.FirstTest.user_eneters_and(java.lang.String,java.lang.String)">
+                <span>And user eneters "standard_user" and "secret_sauce"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.Test2StepDefinations.i_am_on_the_home_page_of_sauce_demo_test()">
+                <span>Given I am on the home page of sauce demo test</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.Test2StepDefinations.i_am_able_to_see_the_logo_sauce_demo_site()">
+                <span>And I am able to see the logo sauce demo site</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.Test2StepDefinations.my_validation_will_be_full_fill()">
+                <span>Then My validation will be full fill</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log pass-bg mr-2">Pass</span>Verfying product available on home page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="seleniumTests.FirstTest.user_launches_saucedemo_webpage()">
+                <span>Given User launches Saucedemo webpage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.FirstTest.user_eneters_and(java.lang.String,java.lang.String)">
+                <span>And user eneters "standard_user" and "secret_sauce"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.Test2StepDefinations.i_am_on_the_home_page_of_sauce_demo_test()">
+                <span>Given I am on the home page of sauce demo test</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.Test2StepDefinations.product_should_be_available_in_homepage()">
+                <span>And Product should be available in homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="seleniumTests.Test2StepDefinations.user_should_be_able_to_see_the_product(java.lang.String)">
+                <span>Then user should be able to see the product "Sauce Labs Backpack"</span>
       <div>
       </div>
               </div>
@@ -357,9 +517,9 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:20:14 AM</td>
+<td>08:05:12 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Login Check</a>
+<a href="#" class="linked" test-id='11' id='12'>Login Check</a>
 <div class="">
 <span class="badge badge-default">Sauce Demo Test.Login Check</span>
 </div>
@@ -409,9 +569,9 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:20:14 AM</td>
+<td>08:05:12 AM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Login Check</a>
+<a href="#" class="linked" test-id='11' id='12'>Login Check</a>
 <div class="">
 <span class="badge badge-default">Sauce Demo Test.Login Check</span>
 </div>

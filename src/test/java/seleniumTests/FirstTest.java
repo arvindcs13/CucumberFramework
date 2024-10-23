@@ -25,7 +25,7 @@ LoginPageObjects loginPage;
 
 public FirstTest(TestContext context) {
 	testContext = context;
-	loginPage = testContext.getPageObjectManager().getHomePage();
+	loginPage = testContext.getPageObjectManager().getloginPageObjs();
 }
 
 	
@@ -49,6 +49,6 @@ public FirstTest(TestContext context) {
 	public void user_should_be_able_to_login() throws Throwable {
 		System.out.println("After method will close brwoser");
 //		Assert.assertTrue(false);
-	}
+		}
 
 }
