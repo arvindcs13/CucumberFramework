@@ -13,9 +13,10 @@ glue = { "seleniumTests","AppHooks" },
 
 plugin = {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "rerun:target/failed.txt"},
 
+
 monochrome=true
 )
 
-public class CucumberRunner {
+public class TestRunner {
 	
 }

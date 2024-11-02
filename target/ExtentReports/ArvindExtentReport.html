@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">ArvindExtentReport</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Oct 23, 2024 08:04:44</span></a>
+<a href="#"><span class="badge badge-primary">Nov 02, 2024 10:59:23</span></a>
 </li>
 </ul>
 </div>
@@ -50,6 +50,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('device-view')">
@@ -71,13 +76,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Oct 23, 2024 08:04:44</h3>
+<h3>Nov 02, 2024 10:59:23</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Oct 23, 2024 08:05:35</h3>
+<h3>Nov 02, 2024 11:00:18</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -167,7 +172,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login Action":26.924,"Sauce Demo Test":7.349,"I am testing on home page of Sauce Demo":15.288
+"Login Action":26.476,"Sauce Demo Test":8.551,"I am testing on home page of Sauce Demo":19.437
 };
 </script>
 <div class="row">
@@ -179,6 +184,23 @@ var timeline = {
 <tbody>
 <tr>
 <td>_Arvind</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Arvind</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -252,6 +274,12 @@ eventsCount: 5,
 </ul>
 </li>
 <li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Arvind</a>
+</ul>
+</li>
+<li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tablet"></i></a>
 <ul id="device-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" href="#">_Windows</a>
@@ -267,7 +295,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Login Action</p>
             <p class="text-sm">
-              <span>8:04:45 AM</span> / <span>00:00:26:924</span>
+              <span>10:59:24 am</span> / <span>00:00:26:476</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -276,9 +304,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Login Action</h5>
-<span class='badge badge-success'>10.23.2024 8:04:45 AM</span>
-<span class='badge badge-danger'>10.23.2024 8:05:12 AM</span>
-<span class='badge badge-default'>00:00:26:924</span>
+<span class='badge badge-success'>11.02.2024 10:59:24 am</span>
+<span class='badge badge-danger'>11.02.2024 10:59:50 am</span>
+<span class='badge badge-default'>00:00:26:476</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -325,7 +353,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Sauce Demo Test</p>
             <p class="text-sm">
-              <span>8:05:12 AM</span> / <span>00:00:07:349</span>
+              <span>10:59:50 am</span> / <span>00:00:08:551</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -334,9 +362,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Sauce Demo Test</h5>
-<span class='badge badge-success'>10.23.2024 8:05:12 AM</span>
-<span class='badge badge-danger'>10.23.2024 8:05:20 AM</span>
-<span class='badge badge-default'>00:00:07:349</span>
+<span class='badge badge-success'>11.02.2024 10:59:50 am</span>
+<span class='badge badge-danger'>11.02.2024 10:59:59 am</span>
+<span class='badge badge-default'>00:00:08:551</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -381,7 +409,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">I am testing on home page of Sauce Demo</p>
             <p class="text-sm">
-              <span>8:05:20 AM</span> / <span>00:00:15:288</span>
+              <span>10:59:59 am</span> / <span>00:00:19:437</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -390,9 +418,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">I am testing on home page of Sauce Demo</h5>
-<span class='badge badge-success'>10.23.2024 8:05:20 AM</span>
-<span class='badge badge-danger'>10.23.2024 8:05:35 AM</span>
-<span class='badge badge-default'>00:00:15:288</span>
+<span class='badge badge-success'>11.02.2024 10:59:59 am</span>
+<span class='badge badge-danger'>11.02.2024 11:00:18 am</span>
+<span class='badge badge-default'>00:00:19:437</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -485,7 +513,59 @@ eventsCount: 5,
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view device-view attributes-view">
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Arvind</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Arvind</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:59:24 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Successful Login with Valid Credentials</a>
+<div class="">
+<span class="badge badge-default">Login Action.Successful Login with Valid Credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view device-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
@@ -517,7 +597,7 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:05:12 AM</td>
+<td>10:59:50 am</td>
 <td>
 <a href="#" class="linked" test-id='11' id='12'>Login Check</a>
 <div class="">
@@ -569,7 +649,7 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:05:12 AM</td>
+<td>10:59:50 am</td>
 <td>
 <a href="#" class="linked" test-id='11' id='12'>Login Check</a>
 <div class="">
