@@ -17,14 +17,22 @@ public class PageObjectManager {
 
 	public LoginPageObjects getloginPageObjs(){
 
-		return (LoginPageObjects == null) ? LoginPageObjects = new LoginPageObjects(driver) : LoginPageObjects;
+//		return (LoginPageObjects == null) ? LoginPageObjects = new LoginPageObjects(driver) : LoginPageObjects;
+		if (LoginPageObjects == null) {
+		    LoginPageObjects = new LoginPageObjects(driver);
+		}
+		return LoginPageObjects;
 
 	}
 	
 	
-	public HomaPageObjects homePageObjects(){
+	public HomaPageObjects gethomePageObjects(){
 
-		return (homePageObjects == null) ? homePageObjects = new HomaPageObjects(driver) : homePageObjects;
+//		return (homePageObjects == null) ? homePageObjects = new HomaPageObjects(driver) : homePageObjects;
+		if (homePageObjects == null) {
+			homePageObjects = new HomaPageObjects(driver);
+		}
+		return homePageObjects;
 
 	}
 	

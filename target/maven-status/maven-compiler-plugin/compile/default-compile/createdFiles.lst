@@ -1,9 +1,9 @@
-cucumber\TestContext.class
-ennums\DriverType.class
 manager\FileManager.class
 ennums\EnvironmentType.class
-PageObjects\LoginPageObjects.class
 manager\PageObjectManager.class
-manager\WebDriverManagers.class
 configFileReader\PeropertyFileReader.class
 manager\WebDriverManagers$1.class
+cucumber\TestContext.class
+ennums\DriverType.class
+PageObjects\LoginPageObjects.class
+manager\WebDriverManagers.class

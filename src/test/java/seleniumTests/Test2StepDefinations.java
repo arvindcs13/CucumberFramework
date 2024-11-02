@@ -13,7 +13,7 @@ public class Test2StepDefinations {
 
 	public Test2StepDefinations(TestContext context) {
 		testContext = context;
-		homepageObjects = testContext.getPageObjectManager().homePageObjects();
+		homepageObjects = testContext.getPageObjectManager().gethomePageObjects();
 	}
 	
 	@Given("I am on the home page of sauce demo test")
