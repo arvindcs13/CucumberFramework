@@ -8,13 +8,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomaPageObjects {
 
-public HomaPageObjects(WebDriver driver) {
-		
+//	private final WebDriver driver;
+
+	public HomaPageObjects(WebDriver driver) {
+//		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
 
 
-@FindBy(how=How.XPATH, using="//div[@class='app_logo']" )
+@FindBy(xpath="//div[@class='app_logo']" )
 private WebElement app_logo;
 
 public void app_logoisDisplayed() {
@@ -22,7 +24,7 @@ public void app_logoisDisplayed() {
 }
 
 
-@FindBy(how=How.XPATH, using="//div[@class='product_label']")
+@FindBy(xpath="//div[@class='product_label']")
 private WebElement product_Label;
 public boolean product_LabelisDisplayed() {
 	return product_Label.isDisplayed();

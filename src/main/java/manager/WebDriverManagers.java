@@ -65,9 +65,8 @@ public class WebDriverManagers {
         	options.addArguments("--incognito");
         	driver = new ChromeDriver(options);
         	
-        	
-        	
     		break;
+    		
         case EDGE : 
         	WebDriverManager.edgedriver().setup();
         	EdgeOptions edoptions= new EdgeOptions();

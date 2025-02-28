@@ -17,7 +17,7 @@ public class PageObjectManager {
 
 	public LoginPageObjects getloginPageObjs(){
 
-//		return (LoginPageObjects == null) ? LoginPageObjects = new LoginPageObjects(driver) : LoginPageObjects;
+
 		if (LoginPageObjects == null) {
 		    LoginPageObjects = new LoginPageObjects(driver);
 		}
@@ -28,7 +28,7 @@ public class PageObjectManager {
 	
 	public HomaPageObjects gethomePageObjects(){
 
-//		return (homePageObjects == null) ? homePageObjects = new HomaPageObjects(driver) : homePageObjects;
+
 		if (homePageObjects == null) {
 			homePageObjects = new HomaPageObjects(driver);
 		}
