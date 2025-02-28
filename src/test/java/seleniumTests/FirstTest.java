@@ -32,14 +32,14 @@ public FirstTest(TestContext context) {
 	@Given("User launches Saucedemo webpage")
 	public void user_launches_saucedemo_webpage()  {
 		System.out.println("I am on sauce demo page already");
+		System.out.println("I am OKK");
 	}
 
 	
 	
 	@Given("user eneters {string} and {string}")
 	public void user_eneters_and(String username, String password) {
-//		pjm = new PageObjectManager(driver);
-//		lmp=pjm.getHomePage();
+
 		loginPage.getusernameTextbox(username);
 		loginPage.getpasswordTextbox(password);
 		loginPage.getLoginBtnClick();
@@ -48,7 +48,7 @@ public FirstTest(TestContext context) {
 	@Then("User should be able to login")
 	public void user_should_be_able_to_login() throws Throwable {
 		System.out.println("After method will close brwoser");
-//		Assert.assertTrue(false);
+		testContext.getWebDriverManager().closeDriver();
 		}
 
 }

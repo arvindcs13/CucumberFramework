@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
 
         plugin={"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome=true,
-        tags="@ArvindData"
+        tags="@Test"
 )
 
 

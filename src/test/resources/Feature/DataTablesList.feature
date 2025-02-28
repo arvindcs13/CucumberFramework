@@ -1,6 +1,7 @@
+@Test
 Feature: Login Action
 
-  @ArvindData
+
   Scenario: Successful Login with Valid Credentials
     Given User is on Home Page
       And User enters Credentials to LogIn
