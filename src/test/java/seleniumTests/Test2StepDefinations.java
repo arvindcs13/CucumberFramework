@@ -39,11 +39,13 @@ public class Test2StepDefinations {
 	}
 
 	@Then("user should be able to see the product {string}")
-	public void user_should_be_able_to_see_the_product(String product) {
+	public void user_should_be_able_to_see_the_product(String product) throws Throwable{
 		String ExpectedTextname="Sauce Labs Backpack";
 		homepageObjects.bagPackisAvaialble().isDisplayed();
 		String AcctualteXt =homepageObjects.bagPackisAvaialble().getText();
 		Assert.assertEquals( ExpectedTextname, AcctualteXt);
+		Thread.sleep(5000);
+		testContext.getWebDriverManager().closeDriver();
 		
 	}
 }

@@ -71,7 +71,12 @@ public class WebDriverManagers {
         	WebDriverManager.edgedriver().setup();
         	EdgeOptions edoptions= new EdgeOptions();
         	edoptions.addArguments("disable-extensions");
-        	edoptions.addArguments("-inprivate");
+			edoptions.addArguments("--disable-features=WebRtcHideLocalIpsWithMdns");
+			edoptions.addArguments("--disable-gpu"); // Prevent GPU-related crashes
+			edoptions.addArguments("--no-sandbox");  // Bypass OS security
+			edoptions.addArguments("--disable-dev-shm-usage"); // Prevent shared memory issues
+			edoptions.addArguments("--remote-allow-origins=*"); // Allow all remote origins
+//        	edoptions.addArguments("-inprivate");
         	driver = new EdgeDriver(edoptions);
         	
     		break;
@@ -80,7 +85,7 @@ public class WebDriverManagers {
         driver.get(FileManager.getInstance().getConfigReader().getApplicationUrl());
         driver.manage().window().maximize();
         
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		return driver;
 	}	
 

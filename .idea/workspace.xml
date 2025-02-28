@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5a13438-1ad0-406c-9495-db48ac3b1904" name="Changes" comment="Switch step">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/HomaPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomaPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/WebDriverManagers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/WebDriverManagers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CucumberRunnerFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CucumberRunnerFailed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/DataTablesListStepDefinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/DataTablesListStepDefinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Arvind.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Arvind.Feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumTests/Test2StepDefinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/Test2StepDefinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Arvind.Feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/DataTablesList.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/DataTablesList.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Test1.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Test2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Test2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ExtentReports/ArvindExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/ExtentReports/ArvindExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/LoginPageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/LoginPageObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configFileReader/PeropertyFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configFileReader/PeropertyFileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cucumber/TestContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cucumber/TestContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ennums/DriverType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ennums/DriverType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ennums/EnvironmentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ennums/EnvironmentType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/manager/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/manager/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/manager/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/manager/PageObjectManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/manager/WebDriverManagers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/manager/WebDriverManagers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumTests/AppHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumTests/AppHooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumTests/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumTests/FirstTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,27 +75,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: DataTablesList.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Successful Login with Valid Credentials.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;arvindcs1615&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vijay/naya-workspace/ArvindQA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: DataTablesList.executor": "Run",
+    "Cucumber Java.Feature: Test1.executor": "Run",
+    "Cucumber Java.Feature: Test2.executor": "Run",
+    "Cucumber Java.Scenario: Login Check.executor": "Run",
+    "Cucumber Java.Scenario: Successful Login with Valid Credentials.executor": "Run",
+    "Cucumber Java.Scenario: Verfying the logo on home page.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "arvindcs1615",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Vijay/naya-workspace/AutomationFMWkArvind"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Feature: DataTablesList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Test1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/DataTablesList.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Test1.feature" />
       <option name="GLUE" value="seleniumTests" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationFMWkArvind" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: DataTablesList" />
+      <option name="SUGGESTED_NAME" value="Feature: Test1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -139,9 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Login Check" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Test1.feature" />
+      <option name="GLUE" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationFMWkArvind" />
+      <option name="NAME_FILTER" value="^Login Check$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login Check$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login Check" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Successful Login with Valid Credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Arvind.Feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/DataTablesList.feature" />
       <option name="GLUE" value="seleniumTests" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationFMWkArvind" />
@@ -177,10 +187,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Feature: DataTablesList" />
-        <item itemvalue="Cucumber Java.Feature: Test2" />
+        <item itemvalue="Cucumber Java.Scenario: Login Check" />
         <item itemvalue="Cucumber Java.Scenario: Successful Login with Valid Credentials" />
-        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: Test1" />
+        <item itemvalue="Cucumber Java.Feature: Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730532960885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Switch step">
+      <option name="closed" value="true" />
+      <created>1740720399208</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740720399208</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Switch step">
+      <option name="closed" value="true" />
+      <created>1740720441986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740720441986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,16 +280,5 @@
     <MESSAGE value="New Feature file for my new branch" />
     <MESSAGE value="Switch step" />
     <option name="LAST_COMMIT_MESSAGE" value="Switch step" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumTests/DataTablesListStepDefinations.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

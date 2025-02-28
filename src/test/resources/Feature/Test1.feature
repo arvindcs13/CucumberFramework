@@ -1,3 +1,4 @@
+@Test
 Feature: Sauce Demo Test
 
 @device_Windows @author_Arvind

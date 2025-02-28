@@ -1,4 +1,4 @@
-
+@Test
 @ArvindPage
 Feature: I am testing on home page of Sauce Demo 
 

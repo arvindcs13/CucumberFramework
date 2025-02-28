@@ -59,5 +59,6 @@ public class DataTablesListStepDefinations {
 	@Then("Message displayed Login Successfully")
 	public void message_displayed_login_successfully() {
 	    System.out.println("I am good");
+		testContext.getWebDriverManager().closeDriver();
 	}
 }
