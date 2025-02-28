@@ -30,29 +30,29 @@ public class DataTablesListStepDefinations {
 
 	@And("User enters Credentials to LogIn")
 	public void user_enters_credentials_to_log_in(DataTable usercredentials) throws InterruptedException {
-// Datatables as List	
-//		List<List<String>> data = usercredentials.asLists();
-//Printing the available list		
-//		for(List<String> items: data) {
-//			System.out.println(items);
-//		}
-//	By the use of list we can provide value one by one 	
-//		loginPage.getusernameTextbox(data.get(0).get(0));
-//		loginPage.getpasswordTextbox(data.get(0).get(1));
-//		loginPage.getLoginBtnClick();
+// Datatables as List
+		List<List<String>> data = usercredentials.asLists();
+//Printing the available list
+		for(List<String> items: data) {
+			System.out.println(items);
+		}
+//	By the use of list we can provide value one by one
+		loginPage.getusernameTextbox(data.get(0).get(0));
+		loginPage.getpasswordTextbox(data.get(0).get(1));
+		loginPage.getLoginBtnClick();
 		
     //DataTables as map		
 //	Returns List of data in key, Value Pair
-		List<Map<String, String>>  data=usercredentials.asMaps(String.class, String.class);
-		
-		for(Map<String,String> items :data) {
-			loginPage.clearusernameTextbox();
-			loginPage.getusernameTextbox(items.get("UserName"));
-			Thread.sleep(2000);
-			loginPage.cleargetpasswordTextbox();
-			loginPage.getpasswordTextbox(items.get("Password"));
-			Thread.sleep(2000);
-		}
+//		List<Map<String, String>>  data=usercredentials.asMaps(String.class, String.class);
+//
+//		for(Map<String,String> items :data) {
+//			loginPage.clearusernameTextbox();
+//			loginPage.getusernameTextbox(items.get("UserName"));
+//			Thread.sleep(2000);
+//			loginPage.cleargetpasswordTextbox();
+//			loginPage.getpasswordTextbox(items.get("Password"));
+//			Thread.sleep(2000);
+//		}
 		
 	}
 

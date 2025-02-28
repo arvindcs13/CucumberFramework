@@ -10,33 +10,35 @@ public class LoginPageObjects {
 
 	
 	
+	private WebDriver driver;
+
 	public LoginPageObjects(WebDriver driver) {
-		
+		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(how=How.XPATH, using="//input[@id='user-name']")
+	@FindBy(xpath="//input[@id='user-name']")
 	private WebElement usernameTextbox;
 	
 	public void getusernameTextbox(String username) {
 		usernameTextbox.sendKeys(username);
 	}
 	
-	@FindBy(how=How.XPATH, using="//input[@id='password']")
+	@FindBy(xpath="//input[@id='password']")
 	private WebElement passwordTextbox;
 	
 	public void getpasswordTextbox(String password) {
 		passwordTextbox.sendKeys(password);
 	}
 	
-	@FindBy(how=How.XPATH, using="//input[@id='login-button']")
+	@FindBy(xpath="//input[@id='login-button']")
 	private WebElement loginBTn;
 	
 	public void getLoginBtnClick() {
 		loginBTn.click();
 	}
 	
-	@FindBy(how=How.XPATH, using="//input[@id='user-name']")
+	@FindBy(xpath="//input[@id='user-name']")
 	private WebElement usernameClear;
 	
 	public void clearusernameTextbox() {
@@ -44,7 +46,7 @@ public class LoginPageObjects {
 	}
 	
 	
-	@FindBy(how=How.XPATH, using="//input[@id='password']")
+	@FindBy(xpath="//input[@id='password']")
 	private WebElement passwordclear;
 	
 	public void cleargetpasswordTextbox() {
